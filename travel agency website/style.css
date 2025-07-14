@@ -12,59 +12,131 @@
     width: 100%;
     align-items: center;
 }
-.decore-1{
+
+.decore-1 {
     position: absolute;
     right: 0%;
     top: 0%;
     z-index: -999;
 }
-.cstm-btn{
-   border: 2px solid black !important; 
+
+.cstm-btn {
+    border: 2px solid black !important;
 }
 
 
-.screen-1{
+.screen-1 {
     margin-top: 80px;
 }
- .heading-1{
+
+.heading-1 {
     font-size: 20px;
- }
- .cstm-btn-2{
+}
+
+.cstm-btn-2 {
     color: white !important;
- }
-.screen-1-sub-div{
+}
+
+.screen-1-sub-div {
     display: flex;
     width: 900px;
     height: 50px;
 }
-.screen-1-sub-div button{
+
+.screen-1-sub-div button {
     position: absolute;
     top: 55%;
 }
-.screen-1-sub-div p{
+
+.screen-1-sub-div p {
     position: absolute;
     top: 53%;
     left: 17%;
 }
+
 /* .screen-1-data {
     display: flex;
     flex-direction: column; or 'row' if you want horizontal spacing
     gap: 20px; Adjust the value as needed
 } */
-.screen-1-data > * {
-    margin-bottom: 20px; /* Adjust the value as needed */
+.screen-1-data>* {
+    margin-bottom: 20px;
+    /* Adjust the value as needed */
 }
-.screen-1-img{
+
+.screen-1-img {
     position: absolute;
-    right: 2%;
-    bottom: 10%;
+    right: 4%;
+    top: 70px;
+    width: auto;
+    height: 700px;
 }
-.screen-1-img img{
-    height: 600px;
+
+.screen-1-img img {
+    height: 100%;
+    width: 100%;
 }
-@media (max-width: 992px) {
-    .decore-1{
+
+@media (max-width: 991px) {
+    .decore-1 {
         display: none;
     }
+
+    .screen-1-img {
+        height: 600px;
+        width: 400px;
+        position: absolute;
+        top: 65%;
+    }
+
+    .screen-1-data-div-para {
+        margin-left: 90px;
+    }
 }
-    
+
+.h6-category {
+    font-size: 18px;
+    text-align: center;
+}
+.category-div{
+    margin-top: 300px;
+}
+.h1-category-div{
+    text-align: center;
+    font-size: 50px;
+}
+.card-img{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;         /* Center horizontally */
+    width: 120px;           /* Set desired width */
+    height: 80px;   
+}
+.category-div-img {
+    width: 100%;            /* Make image fill the container */
+    height: 100%;
+    object-fit: contain;    /* Keep aspect ratio */
+}
+.card-para{
+    text-align: center;
+    font-size: 16px;
+}
+.card-divs-category{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+.card-body{
+    margin-top: 30px;
+}
+.active-card-category{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ border-radius: 20px;
+}
+body{
+    height: 15000px;
+}
+.cards{
+    padding: 20px;
+}
