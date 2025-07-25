@@ -105,6 +105,11 @@
     .decor-category {
         display: none;
     }
+
+    .feed-back-card-div {
+        margin-top: 28px !important;
+    }
+
 }
 
 .decor-category {
@@ -469,16 +474,66 @@ ul {
     margin-left: 4px;
 
 }
-.span-1{
+
+.span-1 {
     color: #8A79DF;
 }
-.card2-hd{
+
+.card2-hd {
     font-size: 14px;
-    
+
     margin-left: 15px;
 }
-.card2-img{
-    margin-bottom:19px ;
+
+.card2-img {
+    margin-bottom: 19px;
     margin-left: 15px;
 
+}
+
+.feed-back-section {
+    margin-top: 100px;
+}
+
+.feed-back-section>div>div>div>h1 {
+    margin-top: 20px;
+}
+
+.feed-back-section>div>div>div>img {
+    margin-top: 190px;
+    margin-right: 20px;
+
+}
+
+.feed-back-div>h4 {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.feed-back-div>h6 {
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.feed-back-div>p {
+    padding-top: 10px;
+}
+
+.feed-back-div {
+    margin-left: 61px;
+    margin-top: -39px;
+    box-shadow: 4px 30px 70px rgba(0, 0, 0, 0.25);
+}
+
+.div-1 {
+    position: relative !important;
+    z-index: 100;
+}
+
+.feed-back-card-div-2 {
+    margin-top: -10px;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative !important;
+    z-index: -100;    
 }
