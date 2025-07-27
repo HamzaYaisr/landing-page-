@@ -1,3 +1,62 @@
+:root {
+    --primiary-green: #4CAF4F;
+
+}
+
+.navbar-brand {
+    color: var(--primiary-green);
+}
+
+.cstm-btn {
+    background: var(--primiary-green);
+    color: white;
+    width: fit-content;
+}
+
+.hero-h1>span {
+    color: #4CAF4F;
+}
+
+.hero-h1 {
+    font-weight: bold;
+}
+body{
+    height: 10000px;
+}
+
+.sub-div {
+    margin-top: 60px;
+}
+
+.screen-2 {
+    margin-top: 30px;
+}
+
+.div-data {
+    text-align: center;
+}
+
+.img-div {
+    margin-bottom: 30px;
+}
+
+.card-img {
+    width: 50px;
+    height: 50px;
+
+}
+.gren{
+    color: var(--primiary-green);
+}
+.dummyBg > img{
+object-fit: contain !important;
+height: 350px;
+padding-left: 200px;
+padding-top: 40px;
+}
+.sc-3-data>h1>span{
+    color: var(--primiary-green);
+}
 
 /* for small screen 
 @media screen (max-width:576px) {
